@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    background-color:#07000D;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0;
+
+}
+
+header
+{
+    display:flex;
+    flex-direction: column;
+    height: 20%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(#383D59, #07000D);
+    color: aliceblue;
+}
+
+.imglogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    opacity: 50%;
+   
+    
+}
