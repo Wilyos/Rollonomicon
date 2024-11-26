@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceberg&family=Kode+Mono:wght@400..700&family=Patrick+Hand+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceberg&family=Kode+Mono:wght@400..700&family=Patrick+Hand+SC&family=Princess+Sofia&display=swap');
 /* fuentes */
-h1 {
+.h1head {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -10,6 +10,7 @@ h1 {
     font-style: normal;
     text-align: center;
     color: #2D0140;
+    text-shadow: 5px 5px 10px  #383D59;
     font-size: 50px;
   }
   
@@ -98,21 +99,70 @@ ul.topnav {
   }
 
   /* main */
-
-  p
-  {
-    color: #F2E4BB;
-    font-family: "Patrick Hand SC", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  main
+  .h1main
   {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: #2D0140;
+    text-shadow: 5px 5px 10px  #F2E4BB;
+    font-size: 50px;
+  }
+  p
+  {
+    display: flex;
+    flex-grow: 6;
+    color: #F2E4BB;
+    font-family: "Patrick Hand SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  main
+  {
+    
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     text-align: justify;
+    flex-grow: 8;
+    
 
   }
+
+  .sec1
+  {
+    display: block;
+    padding: 300px;
+    border-radius: 50px 10px;
+    box-shadow: 5px 5px 5px 12px #2D0140;
+    background-image: url(/img/saloon.jpg);
+    filter:blur(8px);
+    -webkit-filter: blur(8px);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .bgText
+  {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color:#F2E4BB;
+    border: 3px solid #F2E4BB;
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+  }
+
+
