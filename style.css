@@ -30,9 +30,10 @@
 }
 .bodyc
 {
+  position: relative;
   margin: 0;
   background-color:#07000D;
-  padding-bottom: 30em;
+  padding-bottom: 10em;
   min-height: 100vh;
 }
 
@@ -196,6 +197,7 @@ ul.topnav {
   }
   
   div.gallery img {
+    border-radius: 15px 15px;
     width: 100%;
     height: auto;
   }
@@ -243,11 +245,12 @@ ul.topnav {
 
 .footer
 {
+  opacity: 0.5;
   display:flex;
   flex-direction: row;
   justify-content:space-around;
   background-image: linear-gradient( 
-    to bottom,black 33%,  #1E0126) ;
+    to top,black 33%,  #1E0126) ;
   padding: 1em 1em;
   text-align: center;
   position: absolute;
