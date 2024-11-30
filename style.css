@@ -20,11 +20,22 @@
     font-style: normal;
   }
 /* general */
-body
+.bodyI
 {
-    margin: 0;
-    background-color:#07000D;
+  position: relative;
+  margin: 0;
+  background-color:#07000D;
+  padding-bottom: 10em;
+  min-height: 100vh;
 }
+.bodyc
+{
+  margin: 0;
+  background-color:#07000D;
+  padding-bottom: 30em;
+  min-height: 100vh;
+}
+
 .container
 {
     display: flex;
@@ -35,15 +46,15 @@ body
 }
 /* cabecera*/
 header
-{
+{   margin-top: 1em;
     display:flex;
     flex-direction: column;
-    height: 20%;
+    height: 25em;
     width: auto;
     align-items: center;
     justify-content: center;
     background-image: radial-gradient(#383D59 33%, #07000D 66%);
-    padding: 15px;
+    padding: 1em 0;
 }
 
 .imglogo
@@ -147,7 +158,7 @@ ul.topnav {
   {
     display: block;
     padding: 300px;
-    border-radius: 50px 10px;
+    border-radius: 50px 8px;
     box-shadow: 5px 5px 5px 12px #2D0140;
     background-image: url(/img/saloon.jpg);
     filter:blur(8px);
@@ -165,13 +176,16 @@ ul.topnav {
     color:#F2E4BB;
     border: 3px solid #F2E4BB;
     position: absolute;
-    top: 135%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
     padding: 20px;
     text-align: justify;
+    min-width: 90vh;
   }
+
+  
   div.gallery {
     border: 1px solid #1E0126;
     border-radius: 15px 15px;
@@ -225,5 +239,28 @@ ul.topnav {
   }
 
 
+/* footer */
 
+.footer
+{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  background-image: linear-gradient( 
+    to bottom,black 33%,  #1E0126) ;
+  padding: 1em 1em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.imageSM
+{
+  max-width: 50px;
+  height: auto;
+  background-color:#2D0140;
+  border-radius: 25px;
+}
 
